@@ -22,5 +22,5 @@ except mysql.connector.Error as err:
         print(" The specified database does not exist")
     else:
         print(err)
-finally
+finally:
     db.close()
